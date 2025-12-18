@@ -1,0 +1,26 @@
+
+<section class="skill-section"
+  style="background-color: {{ module.bg_color.color }};
+         text-align: {{ module.style.name_skill }};">
+
+  <h2>{{ module.section_title }}</h2>
+
+  <div class="skills-grid">
+    {% for skill in module.skill %}
+      <div class="skill-item">
+
+        <div class="heading">
+          <h3>{{ skill.name_skill }}</h3>
+          <span>{{ skill.level_skill }}%</span>
+        </div>
+
+        <div class="progress-wrapper">
+          <div class="progress-bar" style="width: {{ skill.level_skill }}%;">
+          </div>
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+
+</section>

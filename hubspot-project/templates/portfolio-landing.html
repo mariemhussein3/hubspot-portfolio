@@ -1,0 +1,61 @@
+<!--
+  templateType: "page"
+  isAvailableForNewContent: true
+-->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ content.html_title }}</title>
+  {{ standard_header_includes }}
+</head>
+
+<body>
+
+{% dnd_area "main" %}
+  
+  {# --- Hero Section --- #}
+  {% dnd_section %}
+    {% dnd_column %}
+      {% dnd_row %}
+        {% dnd_module path="../modules/Hero Module", label="Hero Section" %}
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+  {% end_dnd_section %}
+
+  {# --- SKILLS SECTION --- #}
+  {% dnd_section %}
+    {% dnd_column %}
+      {% dnd_row %}
+        {% dnd_module path="../modules/skills_module", label="Skills Section" %}
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+  {% end_dnd_section %}
+
+  {# --- Project Showcase Section --- #}
+  {% dnd_section %}
+    {% dnd_column %}
+      {% dnd_row %}
+        {% dnd_module path="../modules/Project_Showcase", label="Project Showcase Section" %}
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+  {% end_dnd_section %}
+
+  {# --- Contact Module --- #}
+  {% dnd_section %}
+    {% dnd_column %}
+      {% dnd_row %}
+        {% dnd_module path="../modules/Contact_Module", label="Contact Module" %}
+        {% end_dnd_module %}
+      {% end_dnd_row %}
+    {% end_dnd_column %}
+  {% end_dnd_section %}
+
+{% end_dnd_area %}
+
+{{ standard_footer_includes }}
+</body>
+</html>

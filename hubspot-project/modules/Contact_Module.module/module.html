@@ -1,0 +1,35 @@
+{# استخدام وسم style العادي لتجنب أخطاء HubL البرمجية #}
+<style>
+  .contact-wrapper {
+    {# يربط هذا السطر لون خلفية القسم باختيارك من لوحة التحكم #}
+    background-color: {{ module.background_color.color }};
+  }
+</style>
+
+<section id="contact-section" class="contact-wrapper">
+    
+    <div class="contact-header">
+        {# Section Title: العنوان #}
+        {% if module.section_title %}
+            <h2>{{ module.section_title }}</h2>
+        {% endif %}
+
+        {# Section Description: الوصف #}
+        {% if module.section_description %}
+            <div class="contact-description">
+                {{ module.section_description }}
+            </div>
+        {% endif %}
+    </div>
+
+    <div class="contact-form-container">
+        {# ربط نموذج HubSpot #}
+        {% if module.contact_form %}
+            {% form
+                form_to_use="{{ module.contact_form.form_id }}"
+                response_response_type="inline"
+            %}
+        {% endif %}
+    </div>
+
+</section>

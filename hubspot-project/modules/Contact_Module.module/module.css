@@ -1,0 +1,75 @@
+/* --- 1. التنسيقات العامة للوحدة --- */
+.contact-wrapper {
+    padding: 60px 0; /* مساحة داخلية علوية وسفلية */
+    /* تم حذف اللون الثابت من هنا ليتم التحكم به من الـ HTML ديناميكياً */
+    text-align: center; /* توسيط المحتوى */
+  width:75%
+}
+
+/* تنسيق قسم العنوان والوصف */
+.contact-header {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* تنسيق العنوان */
+.contact-wrapper h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* تنسيق الوصف */
+.contact-description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* --- 2. تنسيق حاوية النموذج --- */
+.contact-form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* --- 3. تنسيق عناصر النموذج --- */
+.contact-form-container .hs-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.contact-form-container .hs-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.contact-form-container .hs-button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form-container .form-columns-2 .hs-form-field {
+    width: 48%; 
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4%; 
+}
+
+.contact-form-container .form-columns-2 .hs-form-field:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,105 @@
+[ {
+  "id" : "aabe2155-ce80-a34b-d8fb-5a9cbb4f6368",
+  "name" : "pname",
+  "label" : "Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Your Name "
+}, {
+  "id" : "2ae750bb-5369-6504-318e-948394252c6d",
+  "name" : "bg_color",
+  "label" : "Background Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "display_width" : null,
+  "default" : {
+    "color" : "#FFFFFF",
+    "opacity" : 100
+  }
+}, {
+  "id" : "ec8e21ab-5bf9-ac9c-8a5d-e20c6c69a4b5",
+  "name" : "profile_photo",
+  "label" : "Profile Photo",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "src" : "https://147159179.fs1.hubspotusercontent-eu1.net/hubfs/147159179/hubspot_image.jpg",
+    "alt" : "hubspot_image",
+    "width" : 1032,
+    "height" : 1280,
+    "max_width" : 1032,
+    "max_height" : 1280
+  }
+}, {
+  "id" : "c4246544-e566-6499-60e1-c78f1603c8c1",
+  "name" : "reverse_layout",
+  "label" : "Reverse Layout",
+  "required" : false,
+  "locked" : false,
+  "display" : "toggle",
+  "type" : "boolean",
+  "display_width" : null,
+  "default" : false
+}, {
+  "id" : "138e6ed0-6b2e-d0cf-f5b5-49b077f76a41",
+  "name" : "tagline",
+  "label" : "Tagline",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "e19fdb09-e10c-3dea-9552-6afa3d64d663",
+  "name" : "bio_text",
+  "label" : "Bio Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null
+}, {
+  "id" : "592def9f-11fa-ae54-e157-9a1fb7a4011e",
+  "name" : "linkedin_url",
+  "label" : "LinkedIn URL",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "05b84812-faf6-67df-df0c-5018dc70f23c",
+  "name" : "github_url",
+  "label" : "GitHub URL",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "84c08468-5b9a-46b8-a3f1-7a4cb30c5ca5",
+  "name" : "email",
+  "label" : "Email",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "25dc9659-6c7b-02ab-012f-ae5ef1d1d0ab",
+  "name" : "facebook_url",
+  "label" : "Facebook URL",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+} ]

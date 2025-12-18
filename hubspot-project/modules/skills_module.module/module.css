@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+section{
+  display:flex;
+  flex-direction:column;
+    margin-top:30px;
+  width:75%;
+    margin:auto;
+  padding:50px;
+    margin-bottom:20px;
+}
+span{
+color:#C2A68C;
+  font-weight:700;
+}
+.heading{
+  display:flex;
+  width:100%;
+    align-items: center;
+  justify-content:space-between;
+    margin:0;
+}
+  h2{
+ text-align: start;
+   font-size:25px;
+  margin-top:30px;
+    font-family: "Roboto", sans-serif;
+}
+h3{
+  font-family: "Roboto", sans-serif;
+  color:rgb(98 97 96);
+}
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skill-item {
+width: calc(50% - 15px);
+}
+
+@media (max-width: 768px) {
+  .skill-item {
+    width: 100%; /* واحد تحت واحد في الموبايل */
+    margin-right:10px;
+    padding-left:0
+  }
+  section{
+       padding:50px 25px;
+  }
+}
+
+.progress-wrapper {
+  width: 100%;
+  background: white;
+  height: 19px;
+  border-radius: 2px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #728fd1;
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  text-align: right;
+   display: flex;            
+  align-items: center;  
+    padding-left: 8px;
+}
+span{
+  font-size:16px;
+  font-family: "Roboto", sans-serif;
+}

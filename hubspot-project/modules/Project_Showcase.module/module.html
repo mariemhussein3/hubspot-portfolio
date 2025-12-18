@@ -1,0 +1,35 @@
+{# الجزء الخاص بالتحكم في لون الكارد ديناميكياً #}
+<style>
+  .project-card-{{ name }} {
+    background-color: {{ module.card_background_color.color }};
+  }
+</style>
+
+<div class="project-card project-card-{{ name }}">
+    
+    <div class="project-content">
+        {# عرض العنوان #}
+        {% if module.project_title %}
+           <h3>{{ module.project_title }}</h3>
+        {% endif %}
+
+        {# عرض الوصف #}
+        {% if module.project_description %}
+           <p>{{ module.project_description }}</p>
+        {% endif %}
+        
+        {# عرض الزر #}
+        {% if module.project_link.url.href or module.project_link.url.value %}
+            <a href="{{ module.project_link.url.href or module.project_link.url.value }}" 
+               class="project-btn"
+               {% if module.project_link.open_in_new_tab %}target="_blank"{% endif %}>
+                View Project
+            </a>
+        {% endif %}
+    </div>
+  <div class="image">
+        {% if module.project_image.src %}
+      <img src="{{ module.project_image.src }}" alt="{{ module.project_image.alt }}">
+    {% endif %}
+  </div>
+</div>

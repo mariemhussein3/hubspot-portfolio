@@ -1,0 +1,63 @@
+[ {
+  "id" : "ee3f1db5-1081-71c5-20b7-13f2d35422d8",
+  "name" : "section_title",
+  "label" : "section title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "My Skills"
+}, {
+  "id" : "66f34b8c-e3a8-3745-2973-fcb7aec71780",
+  "name" : "bg_color",
+  "label" : "bg color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "display_width" : null,
+  "default" : {
+    "color" : "#EEEEEE",
+    "opacity" : 100
+  }
+}, {
+  "id" : "5661e078-440b-4440-44e0-37281feaeb41",
+  "name" : "skill",
+  "label" : "Skill",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "b0d8a1c0-a0ca-05d4-f0b2-a908d8e6e695",
+    "name" : "name_skill",
+    "label" : "Name_skill",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  }, {
+    "id" : "e6bef50e-2a1a-8c0a-f1c0-59895473a3e3",
+    "name" : "level_skill",
+    "label" : "level_skill",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "min" : 0,
+    "max" : 100,
+    "step" : 1,
+    "type" : "number",
+    "display_width" : null
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ ]
+} ]

@@ -1,0 +1,70 @@
+[ {
+  "id" : "aeb5c572-7234-243a-732c-c32503304403",
+  "name" : "project_title",
+  "label" : "Project Title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "E-commerce"
+}, {
+  "id" : "141b2658-8187-7dbf-fe34-bcffade7c291",
+  "name" : "project_description",
+  "label" : "Project Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null,
+  "default" : "A fully responsive online store developed using HTML, CSS, and JavaScript. It features a dynamic shopping cart, product filtering, and a seamless checkout experience designed to provide a modern shopping feel."
+}, {
+  "id" : "0216dc06-1452-aaac-71f3-40924f58a2ba",
+  "name" : "project_link",
+  "label" : "Project Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "FILE", "CONTENT", "BLOG", "CALL_TO_ACTION", "PAYMENT", "EMAIL_ADDRESS", "PHONE_NUMBER", "WHATSAPP_NUMBER" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "display_width" : null,
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "href" : "https://e-commerce-nextjs-route.vercel.app/",
+      "type" : "EXTERNAL"
+    },
+    "open_in_new_tab" : true,
+    "no_follow" : false
+  }
+}, {
+  "id" : "fcd3da02-a8c1-f504-dd2a-898f45ca38bb",
+  "name" : "card_background_color",
+  "label" : "Card Background Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "display_width" : null,
+  "default" : {
+    "color" : null,
+    "opacity" : null
+  }
+}, {
+  "id" : "a311c40d-a51e-8ef2-feee-1b5b388c96d8",
+  "name" : "project_image",
+  "label" : "Project_Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "src" : "https://147159179.fs1.hubspotusercontent-eu1.net/hubfs/147159179/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202025-12-17%20194233.png",
+    "alt" : "لقطة شاشة 2025-12-17 194233",
+    "width" : 1897,
+    "height" : 908,
+    "max_width" : 1897,
+    "max_height" : 908
+  }
+} ]
